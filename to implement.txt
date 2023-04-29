@@ -1,0 +1,2 @@
+//I think of overloading the operator *= for this object intead of using vec3->arg in the future
+core.hpp line 29
