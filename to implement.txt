@@ -1,2 +1,2 @@
-//I think of overloading the operator *= for this object intead of using vec3->arg in the future
-core.hpp line 29
+1. Compiler having trouble to find the path to the include file from the main.cpp, still need to look into it.
+It doesn't look complicated, but there is more important things to do before.
