@@ -3,6 +3,7 @@
 #include "precision.hpp"
 
 int main(){
-    std::cout << "Hello world!" << std::endl;
+    Vector3 testCase();
+    std::cout << "Hello World" << std::endl;
     return 0;
 }

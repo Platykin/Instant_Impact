@@ -6,6 +6,6 @@
 void Particle::integrate(real time){
     assert(time > 0.0);
 
-    Particle::position.addScaledVector(Particle::velocity, time);
+    position.addScaledVector(velocity, time);
 
 }
