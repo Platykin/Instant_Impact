@@ -8,4 +8,12 @@ void Particle::integrate(real time){
 
     position.addScaledVector(velocity, time);
 
+    InstantImpact::Vector3 resultAcc = acceleration;
+    resultAcc.addScaledVector(forceAccum, inverseMass);
+
+    velocity.addScaledVector(resultAcc, time);
+
+
+
+
 }
