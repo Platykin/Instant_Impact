@@ -1,3 +1,5 @@
+#ifndef _CORE_HPP_
+#define _CORE_HPP_
 #include "precision.hpp"
 using namespace InstantImpact;
 
@@ -123,3 +125,4 @@ namespace InstantImpact {
     };
 
 }
+#endif

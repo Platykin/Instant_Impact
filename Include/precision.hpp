@@ -1,3 +1,5 @@
+#ifndef _PRECISION_HPP_
+#define _PRECISION_HPP_
 #include <math.h>
 
 namespace InstantImpact {
@@ -7,3 +9,4 @@ namespace InstantImpact {
    #define real_pow powf
    
 }
+#endif
